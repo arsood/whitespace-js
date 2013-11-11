@@ -21,7 +21,7 @@ body {
 }
 
 body:last-child {
-	margin-bottom:40px;
+	margin-bottom:45px;
 }
 
 .body-slight-gray {
@@ -250,7 +250,7 @@ body:last-child {
 
 .footer {
 	width:100%;
-	height:40px;
+	height:45px;
 	background-color:#FFF;
 	border-top:#999 1px solid;
 	overflow:hidden;
@@ -266,7 +266,7 @@ body:last-child {
 	width:20%;
 	text-align:center;
 	color:#777;
-	padding-top:5px;
+	padding-top:8px;
 }
 
 .footer-element-title {
