@@ -15,3 +15,15 @@
 	margin-top:10px;
 }
 
+/*FLOATS*/
+
+.pull-left {
+	float:left;
+}
+
+/*IMAGES*/
+
+.img-responsive {
+	width:100%;
+}
+
