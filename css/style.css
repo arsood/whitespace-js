@@ -150,7 +150,7 @@ body:last-child {
 	border-top:none;
 }
 
-.well-title, .well-body {
+.well-title, .well-body, .well-link {
 	border-top:#CCC 1px solid;
 	padding:10px;
 }
@@ -215,6 +215,18 @@ body:last-child {
 	margin-left:0;
 }
 
+.btn-navbar-stack {
+	font-size:1.4em;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:#CCC 1px solid;
+	color:#444;
+	background-color:#EBEBEB;
+	margin-top:6px;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .21), 0 1px 0 rgba(255, 255, 255, .17);
+}
+
 /*Navbar Black*/
 
 .navbar-black {
@@ -276,4 +288,50 @@ body:last-child {
 
 .footer-element.active {
 	color:#06C;
+}
+
+/*TABS*/
+
+.tab-holder {
+	background-color:#E2E2E2;
+	overflow:hidden;
+	padding-top:10px;
+}
+
+.tabs {
+	list-style-type:none;
+	font-size:0.8em;
+	font-weight:bold;
+	padding:0;
+}
+
+.tabs li {
+	margin-left:5px;
+	display:inline;
+	padding:15px 10px;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	color:#999;
+	border:#BBB 1px solid;
+	border-bottom:none;
+	-moz-box-shadow:    inset 0 0 5px #CCC;
+	-webkit-box-shadow: inset 0 0 5px #CCC;
+	box-shadow:         inset 0 0 5px #CCC;
+}
+
+.tabs li:first-child {
+	margin-left:10px;
+}
+
+.tabs li.active {
+	background-color:#F8F8F8;
+	color:#333;
+}
+
+.tab-content {
+	display:none;
+}
+
+.tab-content.active {
+	display:block;
 }

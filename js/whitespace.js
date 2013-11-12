@@ -13,3 +13,13 @@ $(".footer-element").click(function() {
 	});
 	$(this).addClass("active");
 });
+
+/*Change tabs*/
+
+$(".tabs li").click(function() {
+	$(".tabs li").removeClass("active");
+	$(this).addClass("active");
+	var idSelected = $(this).attr("data-tab");
+	$(".tab-content").hide();
+	$("#" + idSelected).fadeIn("fast");
+});
