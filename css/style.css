@@ -18,6 +18,7 @@ Licensed under the MIT software license
 body {
 	font-family:"Open Sans", Arial;
 	margin:0;
+	position:relative;
 }
 
 body:last-child {
@@ -334,4 +335,18 @@ body:last-child {
 
 .tab-content.active {
 	display:block;
+}
+
+/*SLIDING MENUS*/
+
+/*Sliding Menu Left 1*/
+
+.sliding-menu-left-1 {
+	width:70%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#333;
+	display:none;
 }

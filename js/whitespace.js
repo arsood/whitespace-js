@@ -23,3 +23,12 @@ $(".tabs li").click(function() {
 	$(".tab-content").hide();
 	$("#" + idSelected).fadeIn("fast");
 });
+
+/*Toggle sliding menus*/
+
+$(".menu-toggle").click(function() {
+	var idSelected = $(this).attr("data-menu");
+	$("#" + idSelected).toggle("fast");
+});
+
+$("body").bind("swipeone", function() { alert("hello"); });

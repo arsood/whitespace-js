@@ -13,11 +13,14 @@
 
 <body class="body-slight-gray">
 
+	<div id="myMenu" class="sliding-menu-left-1">
+    	
+    </div>
 
 	<nav class="navbar navbar-black navbar-fixed-top">
     	<div class="navbar-wrap">
             <div class="navbar-3-col">
-                <a href="#" class="btn btn-gray-sub-1">More</a>
+                <a href="#" class="btn btn-gray-sub-1 menu-toggle" data-menu="myMenu">More</a>
             </div>
             <div class="navbar-3-col">
             	<div class="navbar-feature">
@@ -27,7 +30,7 @@
                 </div>
             </div>
             <div class="navbar-3-col">
-            	<a href="#" class="btn btn-blue-sub-1">Contact</a>
+            	<a href="#" class="btn btn-blue-sub-1 menu-toggle" data-menu="myMenu">Contact</a>
             </div>
         </div>
     </nav>
@@ -113,6 +116,7 @@
 
 
 <script type="text/javascript" src="libraries/jquery/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="libraries/jgestures/jgestures.js"></script>
 <script type="text/javascript" src="js/whitespace.js"></script>
 
 </body>
