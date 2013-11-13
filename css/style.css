@@ -339,6 +339,22 @@ body:last-child {
 
 /*SLIDING MENUS*/
 
+.sliding-menu-nav {
+	list-style-type:none;
+	margin:20px 0 0 20px;
+	padding:0;
+}
+
+.sliding-menu-nav li {
+	padding:10px;
+}
+
+.sliding-menu-nav li.nav-header {
+	text-transform:capitalize;
+	font-weight:bold;
+	color:#FFF;
+}
+
 /*Sliding Menu Left 1*/
 
 .sliding-menu-left-1 {
