@@ -8,16 +8,16 @@ $(".well-link").click(function() {
 //Change look of footer on link click
 
 $(".footer-element").click(function() {
-	$(".footer-element").removeClass("active");
+	$(".footer-element").each(function() {
+		$(this).removeClass("active");
+	});
 	$(this).addClass("active");
 });
 
 /*Change tabs*/
 
 $(".tabs li").click(function() {
-	$(".tabs li").each(function() {
-		$(this).removeClass("active");
-	});
+	$(".tabs li").removeClass("active");
 	$(this).addClass("active");
 	var idSelected = $(this).attr("data-tab");
 	$(".tab-content").hide();
