@@ -28,5 +28,3 @@ $(".menu-toggle").click(function() {
 	var idSelected = $(this).attr("data-menu");
 	$("#" + idSelected).toggle("fast");
 });
-
-$("body").bind("swipeone", function() { alert("hello"); });

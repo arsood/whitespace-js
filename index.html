@@ -36,7 +36,13 @@
     </nav>
     
     <div class="full-width-container navbar-fixed-space">
-    	<img class="img-responsive" src="img/arun.jpg" />
+    	<div id='slider' class='swipe'>
+            <div class='swipe-wrap'>
+                <div><img src="img/home-slider/slide1.jpg" /></div>
+                <div><img src="img/home-slider/slide2.jpg" /></div>
+                <div><img src="img/home-slider/slide3.jpg" /></div>
+            </div>
+        </div>
     </div>
     
     <div class="full-width-container margin-top-10">
@@ -116,8 +122,13 @@
 
 
 <script type="text/javascript" src="libraries/jquery/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="libraries/jgestures/jgestures.js"></script>
+<script type="text/javascript" src="libraries/touchswipe/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="libraries/swipe-js/swipe.js"></script>
 <script type="text/javascript" src="js/whitespace.js"></script>
+
+<script type="text/javascript">
+	window.mySwipe = Swipe(document.getElementById('slider'));
+</script>
 
 </body>
 </html>
