@@ -15,7 +15,9 @@ $(".footer-element").click(function() {
 /*Change tabs*/
 
 $(".tabs li").click(function() {
-	$(".tabs li").removeClass("active");
+	$(".tabs li").each(function() {
+		$(this).removeClass("active");
+	});
 	$(this).addClass("active");
 	var idSelected = $(this).attr("data-tab");
 	$(".tab-content").hide();
