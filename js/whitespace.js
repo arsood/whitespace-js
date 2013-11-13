@@ -8,9 +8,7 @@ $(".well-link").click(function() {
 //Change look of footer on link click
 
 $(".footer-element").click(function() {
-	$(".footer-element").each(function() {
-		$(this).removeClass("active");
-	});
+	$(".footer-element").removeClass("active");
 	$(this).addClass("active");
 });
 
