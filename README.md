@@ -21,7 +21,7 @@ Navbars
 -------
 
 Currently there is only one navbar that is supported, but over time I will make a few more. It is a dark gray bar. It is implemented like so:
-
+<pre>
 <nav class="navbar navbar-black navbar-fixed-top">
 	<div class="navbar-wrap">
 		<div class="navbar-3-col">
@@ -39,3 +39,4 @@ Currently there is only one navbar that is supported, but over time I will make 
 		</div>
 	</div>
 </nav>
+</pre>
