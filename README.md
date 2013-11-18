@@ -3,7 +3,7 @@ whitespace-js
 
 Whitespace JS is a front-end framework for creating rich functionality HTML 5 apps that look like the real thing.
 
-About this project
+About this Project
 -------------------
 
 WhitespaceJS is a front end framework that is meant to make it easy for you to quickly prototype an HTML5 app in just a few minutes. The uses for this include things like mobile websites and PhoneGap applications. We've taken care of the HTML, CSS and some JS for you, and all you have to do is write in the markup.
@@ -12,7 +12,7 @@ Let's get started on using the framework. I'll try to do my best here so that if
 
 You can take a look at a live demo so you can follow along as you read: http://emboldenmedia.com/staging/whitespace/
 
-Body tag
+Body Tag
 --------
 
 The body tag is formatted by WhitespaceJS to have a margin-bottom of 45 pixels to account for a fixed navbar at the bottom of the screen. You can alter this property if you don't need this.
@@ -49,7 +49,7 @@ Currently there is only one navbar that is supported, but over time I will make 
 
 The framework currently supports a three-column header that allows you to put buttons and icons on either side and in the middle.
 
-Side menu
+Side Menu
 ---------
 
 Currently WhitespaceJS has one sidebar menu, but there will be many more to come. The current menu is positioned absolute to the body, and will slide in from the left side. Using the menu is simple. Here is an example markup:
