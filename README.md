@@ -21,22 +21,21 @@ Navbars
 -------
 
 Currently there is only one navbar that is supported, but over time I will make a few more. It is a dark gray bar. It is implemented like so:
-<pre>
-<nav class="navbar navbar-black navbar-fixed-top">
-	<div class="navbar-wrap">
-		<div class="navbar-3-col">
-			<a href="#" class="btn btn-gray-sub-1 menu-toggle" data-menu="myMenu">More</a>
-		</div>
-		<div class="navbar-3-col">
-			<div class="navbar-feature">
-				<a href="#"><i class="icon-align-center"></i></a>
-				<a href="#"><i class="icon-anchor"></i></a>
-				<a href="#"><i class="icon-zoom-out"></i></a>
+
+		<nav class="navbar navbar-black navbar-fixed-top">
+			<div class="navbar-wrap">
+				<div class="navbar-3-col">
+					<a href="#" class="btn btn-gray-sub-1 menu-toggle" data-menu="myMenu">More</a>
+				</div>
+				<div class="navbar-3-col">
+					<div class="navbar-feature">
+						<a href="#"><i class="icon-align-center"></i></a>
+						<a href="#"><i class="icon-anchor"></i></a>
+						<a href="#"><i class="icon-zoom-out"></i></a>
+					</div>
+				</div>
+				<div class="navbar-3-col">
+					<a href="#" class="btn btn-blue-sub-1 menu-toggle" data-menu="myMenu">Contact</a>
+				</div>
 			</div>
-		</div>
-		<div class="navbar-3-col">
-			<a href="#" class="btn btn-blue-sub-1 menu-toggle" data-menu="myMenu">Contact</a>
-		</div>
-	</div>
-</nav>
-</pre>
+		</nav>
