@@ -29,6 +29,10 @@
 	float:left;
 }
 
+.pull-right {
+	float:right;
+}
+
 /*IMAGES*/
 
 .img-responsive {
