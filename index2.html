@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="libraries/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/helpers.css" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
 
 </head>
 
@@ -57,9 +58,15 @@
     <div class="full-width-container navbar-fixed-space">
     	<div id='slider' class='swipe'>
             <div class='swipe-wrap'>
-                <div><img src="img/home-slider/slide1.jpg" /></div>
-                <div><img src="img/home-slider/slide2.jpg" /></div>
-                <div><img src="img/home-slider/slide3.jpg" /></div>
+                <div data-img="img/home-slider/slide1.jpg">
+                	Hello everyone
+                </div>
+                <div>
+                	Yo
+                </div>
+                <div>
+                	Sup
+                </div>
             </div>
         </div>
     </div>
@@ -151,6 +158,12 @@
 
 <script type="text/javascript">
 	window.mySwipe = Swipe(document.getElementById('slider'));
+	$(".swipe-wrap div").each(function() {
+		var imgPath = $(this).attr("data-img");
+		$(this).css("background", "url(" + imgPath + ") no-repeat");
+		var getHeight = ($(this).width() - ($(this).width() * 0.70));
+		$(this).css("height", getHeight);
+	});
 </script>
 
 </body>
